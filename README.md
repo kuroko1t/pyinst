@@ -4,6 +4,8 @@ A library that installs all the packages needed to run python scripts.
 
 ## Example
 
+The following command will install the libraries needed to run main.py.
+
 ```bash
 $./pyinst python main.py 
 
