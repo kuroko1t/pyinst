@@ -32,13 +32,19 @@ func cmdRun(cmd []string) bool {
 func checkPackage(module_name string) string {
     switch module_name {
     case "PIL":
-        return "Pillow"
+	    return "Pillow"
     case "cv2":
-        return "opencv-python"
+	    return "opencv-python"
+    case "google":
+	    return "protobuf"
+    case "skimage":
+	    return "scikit-image"
+    case "absl":
+	    return "absl-py"
     case "yaml":
-        return "pyyaml"
+	    return "pyyaml"
     default:
-        return module_name
+	    return module_name
     }
 }
 
@@ -55,4 +61,4 @@ func main() {
             break
         }
     }
-} 
+}
