@@ -43,6 +43,8 @@ func checkPackage(module_name string) string {
 	    return "absl-py"
     case "yaml":
 	    return "pyyaml"
+    case "hydra":
+	    return "hydra-core"
     default:
 	    return module_name
     }
