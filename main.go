@@ -45,6 +45,8 @@ func checkPackage(module_name string) string {
 	    return "pyyaml"
     case "hydra":
 	    return "hydra-core"
+    case "google_drive_downloader":
+	    return "googledrivedownloader"
     default:
 	    return module_name
     }
