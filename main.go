@@ -49,6 +49,8 @@ func checkPackage(module_name string) string {
 		return "googledrivedownloader"
 	case "onnxsim":
 		return "onnx-simplifier"
+	case "ruamel":
+		return "ruamel.yaml"
 	default:
 		return module_name
 	}
