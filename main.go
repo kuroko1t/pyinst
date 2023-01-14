@@ -35,6 +35,8 @@ func checkPackage(module_name string) string {
 		return "Pillow"
 	case "cv2":
 		return "opencv-python"
+	case "paddle":
+		return "paddlepaddle"
 	case "google":
 		return "protobuf"
 	case "skimage":
