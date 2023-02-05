@@ -55,6 +55,8 @@ func checkPackage(module_name string) string {
 		return "onnx-simplifier"
 	case "ruamel":
 		return "ruamel.yaml"
+	case "Polygon":
+		return "Polygon3"
 	default:
 		return module_name
 	}
